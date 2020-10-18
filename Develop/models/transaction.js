@@ -1,9 +1,7 @@
 const mongoose = require("mongoose");
-
 const Schema = mongoose.Schema;
 
-const transactionSchema = new Schema(
-  {
+const transactionSchema = new Schema({
     name: {
       type: String,
       trim: true,
