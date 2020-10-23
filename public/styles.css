@@ -12,6 +12,7 @@ background-size: cover;
 button, input {
   font-size: 100%;
   font-family: Arial;
+  color: rgb(15, 45, 126);
 }
 
 table {
@@ -40,15 +41,15 @@ tr:nth-child(even) {
 
 .total {
   font-size: 150%;
-  margin-top: 95px;
-  /* text-decoration: underline; */
-  color: rgb(112, 4, 116);
+  margin-top: 40px;
+  text-decoration: underline;
+  color: rgba(24, 26, 25, 0.897);
 }
 
 .form {
-  margin-top: 50px;
+  margin-top: 10px;
   width: 100%;
-  background-color: rgba(19, 127, 177, 0.678);
+  background-color: rgba(255, 83, 15, 0.678);
 }
 
 .transactions {
@@ -57,12 +58,15 @@ tr:nth-child(even) {
   overflow: auto;
   width: 100%;
   margin: 0 auto;
-  margin-top: 267px;
+  margin-top: 167px;
   background-color: rgb(116, 184, 119);
-  color: rgb(125, 10, 255);
+  color: rgb(190, 109, 3);
 }
 
 #myChart {
+  max-height: 300px;
+  overflow: auto;
+  width: 100%;
   background-color: black;
-  color: rgb(221, 30, 62);
+  color: pink;
 }
